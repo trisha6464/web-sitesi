@@ -1,1 +1,53 @@
-div a:hover{background-color: hotpink;}
+div a:hover{background-color: rgb(226, 88, 111);}
+
+.galeri {
+    margin-top: 20px;
+    display: flex; 
+}
+
+.kutu img{
+    margin-left: 44px;
+}
+
+.kutu p {
+    text-align:center;
+    margin-top: 8px;
+    font-size: 20px;
+    color: rgb(235, 97, 120);
+    margin-left: 44px;
+}
+
+.spor {
+    margin-top: 20px;
+    display: flex;
+    
+}
+
+.box p {
+    text-align: center;
+    margin-top: 8px;
+    font-size: 20px;
+    color: rgb(235, 97, 120);
+    margin-left: 115px;
+}
+
+.box img {
+    margin-left: 115px;
+}
+
+.kutular a {
+    margin-top: 8px;
+    font-size: 20px;
+    color: rgb(235, 97, 120);
+    margin-left: 115px;
+}
+
+.kutular img {
+    margin-left: 115px;
+}
+
+.sarkicilar {
+    margin-top: 20px;
+    display: flex;
+    
+}
