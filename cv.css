@@ -1,9 +1,9 @@
-div a:hover{background-color: hotpink;}
+div a:hover{background-color: rgb(200, 184, 62);}
 
 header {
-    background-color:lightcyan;
+    background-color:rgb(255, 248, 193);
 }
 
 footer{
-    background-color: lightcyan;
+    background-color: rgb(255, 248, 193);
 }
