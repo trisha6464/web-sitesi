@@ -15,7 +15,7 @@ Giriş sayfası niteliğinde, sayfa sahibinin kendini tanıtan bilgilerin olduğ
 Eğitim bilgileri içerir. Semantic html etiketleri kullanılmıştır.
 
 ## Şehrim Sayfası
-Memlekete dair bilgiler(gezilecek yerler vb.) olmaktadır. En az 4 resimden oluşan bir slider bulunmaktadır.
+Herhangi bir şehre dair bilgiler(gezilecek yerler vb.) olmaktadır. En az 4 resimden oluşan bir slider bulunmaktadır.
 
 ## Mirasımız Sayfası
 Şehre ait önemli bir kültürel miras tanıtılmıştır.
