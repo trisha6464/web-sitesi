@@ -1,0 +1,44 @@
+div a:hover{background-color: rgb(64, 124, 60);}
+
+.header {
+  text-align: center;
+  background-image: url('https://i.pinimg.com/736x/b1/ec/03/b1ec031b20077d28e903bd96ce576014.jpg');
+  color: rgb(255, 255, 255);
+  padding: 35px;
+}
+
+.green-bar {
+  background-color: rgb(64, 124, 60);
+  height: 20px;
+}
+
+.main-section {
+  background-color: rgb(0, 0, 0);
+  padding-bottom: 20px;
+}
+
+.title-center {
+  text-align: center;
+  color: rgb(233, 231, 231);
+}
+
+.carousel-item img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  height: 500px;
+}
+
+
+
+.carousel-slide {
+    margin: 0 auto;        
+    margin-top: 20px;
+  }
+
+  .footer {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+  }

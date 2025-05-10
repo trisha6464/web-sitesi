@@ -1,5 +1,28 @@
 div a:hover{background-color: rgb(226, 88, 111);}
 
+
+.header {
+    text-align: center;
+    background-image: url('https://i.pinimg.com/736x/e7/ba/e5/e7bae51bdac277af05c8cf32059ffb36.jpg');
+    color: rgb(0, 0, 0);
+    padding: 35px;
+  }
+
+  .pink-bar {
+    background-color: rgb(235, 97, 120);
+    height: 20px;
+  }
+
+  .main-section {
+    background-color: rgb(252, 248, 235);
+    padding-bottom: 20px;
+  }
+
+  .title-center {
+    text-align: center;
+    color: rgb(235, 97, 120);
+  }
+
 .galeri {
     margin-top: 20px;
     display: flex; 
@@ -51,3 +74,19 @@ div a:hover{background-color: rgb(226, 88, 111);}
     display: flex;
     
 }
+
+.footer-links {
+    color: rgb(235, 97, 120);
+    text-align: center;
+  }
+  
+  .footer-links a {
+    color: rgb(235, 97, 120);
+    text-decoration: none;
+  }
+  
+  .footer {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+  }

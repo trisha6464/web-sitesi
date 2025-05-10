@@ -2,6 +2,8 @@ div a:hover{background-color: rgb(200, 184, 62);}
 
 header {
     background-color:rgb(255, 248, 193);
+    text-align: center;
+    padding: 35px;
 }
 
 footer{
