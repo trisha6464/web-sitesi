@@ -1,0 +1,38 @@
+div a:hover{background-color: rgb(230, 0, 0);}
+
+.header {
+    text-align: center;
+    background-color:rgb(255, 42, 42);
+    color:rgb(0, 0, 0) ;
+    padding: 45px;
+  }
+
+  .black-bar {
+    background-color: rgb(0, 0, 0);
+    height: 20px;
+  }
+
+  .main-section {
+    text-align: center;
+    
+  }
+
+  .liste-kutu ul {
+    list-style-position: inside;
+    text-align: center;
+  }
+
+  .logo {
+    
+    display: block;
+    margin: 20px auto;  
+    width: 130px;      
+    height: auto;         
+  }
+
+  .yazi {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+
