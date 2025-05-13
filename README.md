@@ -17,8 +17,8 @@ Eğitim bilgileri içerir. Semantic html etiketleri kullanılmıştır.
 ## Şehrim Sayfası
 Herhangi bir şehre dair bilgiler(gezilecek yerler vb.) olmaktadır. En az 4 resimden oluşan bir slider bulunmaktadır.
 
-## Mirasımız Sayfası
-Şehre ait önemli bir kültürel miras tanıtılmıştır.
+## Takımımız Sayfası
+Şehrin takımı html elemanları kullanılarak tanıtılmıştır.
 
 ## İlgi Alanlarım Sayfası
 Dış API kullanılarak veri gösterimi gerçekleştirilmiştir. İlgi alanlarım tanıtılmıştır.
