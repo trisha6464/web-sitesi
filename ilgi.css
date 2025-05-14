@@ -1,0 +1,43 @@
+div a:hover{background-color: rgb(54, 104, 214)}
+
+.header {
+    text-align: center;
+    background-image: url('https://i.pinimg.com/736x/59/d7/c6/59d7c6a0db65745e3e32900c7e2fa492.jpg');
+    color: rgb(0, 0, 0);
+    padding: 50px;
+  }
+
+  .blue-bar {
+    background-color: rgb(64, 119, 238);
+    height: 20px;
+  }
+
+.film-listesi {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .film {
+    width: 200px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    text-align: center;
+  }
+  
+  .film img {
+    width: 180px;
+    border-radius: 5px;
+  }
+  
+  .film h3 {
+    font-size: 16px;
+    margin: 10px 0 5px 0;
+  }
+  
