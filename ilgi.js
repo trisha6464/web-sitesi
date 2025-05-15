@@ -1,17 +1,16 @@
-const apiKey = "eef97e53b10af9362f66fdabd4191fbf"; 
-const genreId = 16;
-const apiUrl = `https://api.themoviedb.org/3/discover/movie?api_key=${apiKey}&language=tr-TR&with_genres=${genreId}`;
+const accessKey = "f7XU1iml_lbkdpLzvMPfzDPqxuAPiIAnLE6MwzH-WyY"; 
 
-fetch(apiUrl)
-  .then(res => res.json())
+fetch(`https://api.unsplash.com/search/photos?query=chess&per_page=9&client_id=${accessKey}`)
+  .then(response => response.json())
   .then(data => {
-    const container = document.getElementById("filmler");
-    data.results.forEach(film => {
-      container.innerHTML += `
-        <div class="film">
-          <img src="https://image.tmdb.org/t/p/w200${film.poster_path}" alt="${film.title}">
-          <h3>${film.title}</h3>
-        </div>
-      `;
+    const galeri = document.getElementById("galeri");
+    data.results.forEach(photo => {
+      const img = document.createElement("img");
+      img.src = photo.urls.small;
+      img.alt = photo.alt_description || "Satranç görseli";
+      galeri.appendChild(img);
     });
+  })
+  .catch(err => {
+    console.error("API'den görsel çekilemedi:", err);
   });

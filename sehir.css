@@ -40,3 +40,9 @@ div a:hover{background-color: rgb(64, 124, 60);}
     color: rgb(255, 255, 255);
     padding: 10px;
   }
+  .yazi {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-left: 100px;
+    margin-right: 100px;
+  }

@@ -4,7 +4,7 @@ div a:hover{background-color: rgb(54, 104, 214)}
     text-align: center;
     background-image: url('https://i.pinimg.com/736x/59/d7/c6/59d7c6a0db65745e3e32900c7e2fa492.jpg');
     color: rgb(0, 0, 0);
-    padding: 50px;
+    padding: 35px;
   }
 
   .blue-bar {
@@ -12,32 +12,36 @@ div a:hover{background-color: rgb(54, 104, 214)}
     height: 20px;
   }
 
-.film-listesi {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .main-section {
+    padding-bottom: 20px;
   }
-  
-  .film {
-    width: 200px;
-    background: #fff;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+
+  .title-center {
     text-align: center;
   }
-  
-  .film img {
-    width: 180px;
-    border-radius: 5px;
+
+  .yazi {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
   }
   
-  .film h3 {
-    font-size: 16px;
-    margin: 10px 0 5px 0;
+  .galeri {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 30px;
   }
   
+  .galeri img {
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  .footer {
+    text-align: center;
+    padding: 10px;
+  }
