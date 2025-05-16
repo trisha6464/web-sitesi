@@ -1,16 +1,20 @@
-const accessKey = "f7XU1iml_lbkdpLzvMPfzDPqxuAPiIAnLE6MwzH-WyY"; 
+const apiKey = "d92c67a19a654cd4a623ccd1f9f8390d"; 
+const genre = "indie";          
+const apiUrl = `https://api.rawg.io/api/games?key=${apiKey}&genres=${genre}&page_size=9`;
 
-fetch(`https://api.unsplash.com/search/photos?query=chess&per_page=9&client_id=${accessKey}`)
-  .then(response => response.json())
+fetch(apiUrl)
+  .then(res => res.json())
   .then(data => {
-    const galeri = document.getElementById("galeri");
-    data.results.forEach(photo => {
-      const img = document.createElement("img");
-      img.src = photo.urls.small;
-      img.alt = photo.alt_description || "Satranç görseli";
-      galeri.appendChild(img);
+    const container = document.getElementById("oyunlar");
+    data.results.forEach(game => {
+      const div = document.createElement("div");
+      div.className = "kutu";
+      div.innerHTML = `
+        <img src="${game.background_image}" alt="${game.name}">
+        <h3>${game.name}</h3>
+        <p>Çıkış: ${game.released || 'Bilinmiyor'}</p>
+      `;
+      container.appendChild(div);
     });
   })
-  .catch(err => {
-    console.error("API'den görsel çekilemedi:", err);
-  });
+  .catch(err => console.error("API Hatası:", err));

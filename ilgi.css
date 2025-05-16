@@ -14,6 +14,7 @@ div a:hover{background-color: rgb(54, 104, 214)}
 
   .main-section {
     padding-bottom: 20px;
+    background-color: rgb(249, 251, 255);
   }
 
   .title-center {
@@ -29,16 +30,33 @@ div a:hover{background-color: rgb(54, 104, 214)}
   .galeri {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
     justify-content: center;
+    gap: 20px;
     margin-top: 30px;
   }
   
-  .galeri img {
-    width: 250px;
+  .kutu {
+    width: 220px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  }
+  
+  .kutu img {
+    width: 100%;
     height: auto;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+  }
+  
+  .kutu h3 {
+    font-size: 16px;
+    margin: 10px 0 5px;
+  }
+  
+  .kutu p {
+    font-size: 13px;
+    color: #555;
   }
 
   .footer {
