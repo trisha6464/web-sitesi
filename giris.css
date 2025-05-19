@@ -54,3 +54,9 @@ div a:hover{background-color: rgb(117, 24, 167);}
     font-weight: bold;
     margin-top: 10px;
   }
+
+  .footer {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+  }
