@@ -1,0 +1,56 @@
+div a:hover{background-color: rgb(117, 24, 167);}
+
+.header {
+    text-align: center;
+    background-image: url('https://i.pinimg.com/736x/39/0c/0d/390c0da18f41e4fa04ef896b18602908.jpg');
+    color: rgb(255, 255, 255);
+    padding: 60px;
+  }
+
+  .purple-bar {
+    background-color: rgb(117, 24, 167);
+    height: 20px;
+  }
+
+  .container {
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-kutu {
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(117, 24, 167);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+
+  input[type="submit"]:hover {
+    background-color: rgb(117, 24, 167);
+  }
+
+  label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 10px;
+  }
