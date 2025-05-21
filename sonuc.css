@@ -1,0 +1,37 @@
+body {
+      margin: 0;
+      padding: 0;
+      background: #f5f7fa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .sonuc-container {
+      background-color: rgb(255, 236, 217);
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      width: 90%;
+      max-width: 600px;
+      text-align: center;
+    }
+
+    .sonuc-container h1 {
+      font-size: 32px;
+      margin-bottom: 30px;
+      color: rgb(255, 151, 47);
+    }
+
+    .sonuc-item {
+      font-size: 20px;
+      margin: 15px 0;
+      color: #000000;
+      text-align: left;
+    }
+
+    .etiket {
+      font-weight: bold;
+      color: rgb(255, 151, 47);
+    }

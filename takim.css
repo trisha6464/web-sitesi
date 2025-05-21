@@ -14,16 +14,17 @@ div a:hover{background-color: rgb(230, 0, 0);}
 
   .main-section {
     text-align: center;
-    
   }
 
-  .liste-kutu ul {
+  .liste-kutu {
     list-style-position: inside;
     text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    width: fit-content
   }
 
   .logo {
-    
     display: block;
     margin: 20px auto;  
     width: 130px;      
